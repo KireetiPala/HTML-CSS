@@ -1,6 +1,6 @@
 
 body{
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Muli', sans-serif;
 }
 h1{
     background-color: #ff6633;
@@ -27,4 +27,24 @@ th{
 td, th{
     padding: 13px;
     border: 1px solid grey;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    background-color: #ff6633;
+    overflow: hidden;
+}
+ul li{
+    float: left;
+    padding: 10px 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+.active{
+    background-color: grey;
+    
 }
