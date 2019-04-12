@@ -48,3 +48,15 @@ ul li a{
     background-color: grey;
     
 }
+form{
+    width: 35%;
+    margin: 0 auto;
+    border: 1px solid grey;
+  
+}
+label{
+   float: left;
+}
+h2{
+    text-align: center;
+}
