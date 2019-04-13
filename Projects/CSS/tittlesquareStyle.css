@@ -1,7 +1,176 @@
+
 body{
-    background-color: red;
+    background-color: #F9F8F4;
+}
+.header{
+    widows: 1349px;
+    height: 110px;
+    border-top: 2px solid black;
+    border-bottom: 1px solid grey; 
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 3px;
+    overflow: hidden;
+}
+.logo{
+    width: 342px;
+    background: url("../IMAGES/Logo.png") no-repeat;
+    height: 51px;   
+    float: left;
+    margin: 32px 0px 85px 181px;    
+}
+.navi{  
+    width: 700px;
+    height: 51px;
+    float: left;
+    margin: 32px 0px 85px 0px;
+}
+.navi ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.navi li{
+    float: left;
+    padding: 16px 12px;
+}
+.navi li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+.Get-in-touch a{
+    border: 1px solid lightgrey;
+    padding: 11px;  
+  
+}
+.Get-in-touch a:hover{
+    border: 1px solid grey;
+}
+.navi a:hover{
+    border-bottom: 1px solid grey;
 }
 
-h1{
-    color: red;
+.content{
+    width: 1349px;
+    height: 100%;
+
 }
+.section-1{
+    width: 655px;
+    height: 241px;
+    margin: 103px auto;    
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 3px;
+    color: #51493D;
+}
+.section-1 h1{
+    margin: 0px;
+    text-transform: uppercase;
+    font-size: 2.8em;
+    text-align: center;
+}
+.section-1 ul{
+    list-style-type: none;
+    margin: 20px 100px;
+}
+.section-1 ul li{
+    float:left;
+    margin: 15px 0px 5px 0px;
+}
+.section-1 ul li a{
+    border: 2px solid #996439;
+    text-decoration: none;
+    padding: 10px;
+    text-transform: uppercase;
+    color: #996439;
+}
+.portfbgc{
+    background-color: #996439;
+}
+span{
+    color: white;
+}
+.section-2{
+    width: 1349px;
+    height: 319px; 
+    
+}
+.image-1, .image-2, .image-3{
+    width: 446px;
+    height: 209px;
+    float: left;  
+}
+.image-1{
+    background: url("../IMAGES/Six-Flags.jpg") no-repeat;
+    background-size: cover;
+    width: 446px;
+    height:209px ;
+}
+.image-2{
+    background: url("../IMAGES/Cultive8.jpg") no-repeat;
+    background-size: cover;
+    width: 446px;
+    height:209px ;
+}
+.image-3{
+    background: url("../IMAGES/ARN.jpg") no-repeat;
+    background-size: cover;
+    width: 446px;
+    height:209px ;
+    
+}
+.section-3{
+    border: 1px solid red;
+    width: 1349px;
+    height: 752px;
+    background: url("../IMAGES/Bgc-image-1.png") no-repeat;
+    background-size: cover; 
+    overflow: auto;
+}
+.section-3 h2{
+    border: 1px solid red;
+    display: block;
+    text-transform:uppercase;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 70px;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+.slides{
+    border: 1px solid blue;
+    width: 999px;
+    height: 360px;
+    margin: 0 auto;
+}
+.slidecontent{
+    border: 1px solid black;
+    width: 310px;
+    height: 355px;
+    float: left;
+    margin: 0px 10px;
+}
+.fa-desktop{
+    font-size: 3em;
+    color: #825A38;
+    margin: 0px 100px;
+}
+.slidecontent h4{
+    border: 1px solid red;
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    text-transform:capitalize;
+}
+.describe{
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+    color: grey;
+    font-size: 1.3em;
+}
+
+
